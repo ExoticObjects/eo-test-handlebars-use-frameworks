@@ -4,7 +4,7 @@ Hopefully I'm missing something...
 
 This is a very simple Xcode project that does nothing. It only exists in an effort to try to figure out a compiler error. It uses this Podfile:
 
-```
+```ruby
 platform :ios, '9.0'
 use_frameworks!
 

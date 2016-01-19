@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		32672C1037707310D5E560B6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		52592E610F6AECAC2360658A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		E05E336D1C4D6BFB00BF54EF /* ass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05E336D1C4D6BFB00BF54EF /* MainTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05E33711C4D6BFB00BF54EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E05E33731C4D6BFB00BF54EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E05E33741C4D6BFB00BF54EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		E05E336E1C4D6BFB00BF54EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E05E336D1C4D6BFB00BF54EF /* ass.app */,
+				E05E336D1C4D6BFB00BF54EF /* MainTarget.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,9 +106,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E05E336C1C4D6BFB00BF54EF /* ass */ = {
+		E05E336C1C4D6BFB00BF54EF /* MainTarget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E05E33841C4D6BFB00BF54EF /* Build configuration list for PBXNativeTarget "ass" */;
+			buildConfigurationList = E05E33841C4D6BFB00BF54EF /* Build configuration list for PBXNativeTarget "MainTarget" */;
 			buildPhases = (
 				262795E93602ED727D7D838E /* Check Pods Manifest.lock */,
 				E05E33691C4D6BFB00BF54EF /* Sources */,
@@ -121,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = ass;
+			name = MainTarget;
 			productName = test_handlebars_post_install_hook;
-			productReference = E05E336D1C4D6BFB00BF54EF /* ass.app */;
+			productReference = E05E336D1C4D6BFB00BF54EF /* MainTarget.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E05E336C1C4D6BFB00BF54EF /* ass */,
+				E05E336C1C4D6BFB00BF54EF /* MainTarget */,
 			);
 		};
 /* End PBXProject section */
@@ -342,6 +342,7 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				INFOPLIST_FILE = test_handlebars_post_install_hook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.exoticobjects.test-handlebars-post-install-hook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -374,7 +375,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E05E33841C4D6BFB00BF54EF /* Build configuration list for PBXNativeTarget "ass" */ = {
+		E05E33841C4D6BFB00BF54EF /* Build configuration list for PBXNativeTarget "MainTarget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E05E33851C4D6BFB00BF54EF /* Debug */,

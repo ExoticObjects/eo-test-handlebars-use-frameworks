@@ -25,3 +25,4 @@ CVS
 .idea/test_handlebars_post_install_hook.iml
 .idea/workspace.xml
 .idea/xcode.xml
+.idea/vcs.xml

@@ -22,6 +22,8 @@ post_install do |installer|
 end
 ```
 
+which makes use of a post install hook described [here](https://github.com/Bertrand/handlebars-objc/issues/15#issuecomment-172317394)
+
 And in the main view controller it has one line of code that attempts to use handlebars-objc:
 
 ```objective-c

@@ -1,0 +1,27 @@
+# osx noise
+.DS_Store
+profile
+
+# xcode noise
+build/*
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+xcuserdata
+
+# svn & cvs
+.svn
+CVS
+.idea/.name
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/runConfigurations/eo_jalapeno_lib.xml
+.idea/runConfigurations/test_scratch_podspec.xml
+.idea/test_handlebars_post_install_hook.iml
+.idea/workspace.xml
+.idea/xcode.xml

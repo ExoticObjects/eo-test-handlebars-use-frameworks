@@ -2,8 +2,6 @@ platform :ios, '9.0'
 use_frameworks!
 
 pod 'handlebars-objc', '1.3.0'
-# pod 'test_scratch_podspec', :path => '../test_scratch_podspec/'
-# pod 'eo-jalapeno-lib', :path => '../../eo/eo-jalapeno-lib/'
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|

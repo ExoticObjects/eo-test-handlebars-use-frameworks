@@ -1,5 +1,7 @@
 # eo-test-handlebars-use-frameworks
 
+> This project is here because it's linked to in this [closed handlebars-objc issue](https://github.com/Bertrand/handlebars-objc/issues/15)
+
 Hopefully I'm missing something...
 
 This is a very simple Xcode project that does nothing. It only exists in an effort to try to figure out a compiler error. It uses this Podfile:
